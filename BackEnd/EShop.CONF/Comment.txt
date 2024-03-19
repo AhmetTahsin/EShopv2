@@ -1,0 +1,2 @@
+﻿Enitity Katmanı Referans Verildi
+-Configuration Classları ayarlandı 

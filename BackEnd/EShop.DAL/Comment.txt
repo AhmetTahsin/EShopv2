@@ -1,0 +1,8 @@
+﻿Conf katmanı Referans olarak verildi Buradan Identity EF Core kütüphanesi miras yolu ile geldi
+Fake Veri için Bogus kütüphanesi eklendi
+Category için SeedExtension Ayarlandı
+User için SeedExtension Ayarlandı (Admin-Member User ve Role)
+
+admin Admin123. //// member Member123. // Test Users
+
+EF Tools SQL Proxies yüklendi

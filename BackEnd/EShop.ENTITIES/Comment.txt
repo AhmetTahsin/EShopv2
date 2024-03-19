@@ -1,0 +1,4 @@
+﻿-Category Entiti Eklendi 
+-Identity EF. Kütüphanesi eklendi
+-AppUser Entity Eklendi
+-Product ve ProductImage Entity Eklendi

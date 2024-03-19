@@ -1,0 +1,29 @@
+﻿@model UserRegisterPageVM
+
+
+<form asp-action="Register" asp-controller="Home" method="post" class="p-3 w-75 m-auto">
+
+    <div class="mb-3">
+        <label>Kullanıcı ismi giriniz</label>
+        <span class="text-danger" asp-validation-for="RegisterModel.UserName"></span>
+        <input asp-for="RegisterModel.UserName" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Sifre giriniz</label>
+        <span class="text-danger" asp-validation-for="RegisterModel.Password"></span>
+        <input asp-for="RegisterModel.Password" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Email giriniz</label>
+        <span class="text-danger" asp-validation-for="RegisterModel.Email"></span>
+        <input asp-for="RegisterModel.Email" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <button class="btn btn-primary">Kayıt ol</button>
+    </div>
+    <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+    <p>@TempData["message"]</p>
+</form>
